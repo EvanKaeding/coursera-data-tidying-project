@@ -66,6 +66,6 @@ tidy_data <- selected_data %>%
 
 ## Finally, return the data_tbl
 
-write.csv(tidy_data, "tidy_data.csv")
+write.table(tidy_data, "tidy_data.txt", row.names = FALSE)
 
 
